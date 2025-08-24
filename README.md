@@ -13,22 +13,6 @@ Semua test case ditulis dalam format `it block` pada Cypress.
 ## 📄 Struktur Folder
 <img width="212" height="339" alt="image" src="https://github.com/user-attachments/assets/7844e2b7-83d9-497d-ac31-5561c17b9bce" />
 
-quiz3-cypress/
-├─ package.json
-├─ cypress.config.js
-├─ .gitignore
-├─ README.md
-├─ cypress/
-│  ├─ e2e/
-│  │  └─ login.spec.js
-│  ├─ fixtures/
-│  │  └─ users.json
-│  ├─ support/
-│  │  ├─ commands.js
-│  │  └─ e2e.js
-│  └─ pages/
-│     └─ loginPage.js
-
 - cypress/e2e/login.spec.js → test case
 - cypress/fixtures/users.json → data user
 - cypress/pages/loginPage.js → page object
@@ -47,7 +31,8 @@ quiz3-cypress/
 7. **TC-07**: Login gagal dengan input SQL Injection  
 
 Total test case: **7**  
-Semua test case **PASSED ✅**  
+Semua test case **PASSED ✅**
+
 
 
 ## ⚙️ Setup & Install
