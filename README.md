@@ -3,13 +3,6 @@ Automation testing untuk fitur **Login OrangeHRM** menggunakan **Cypress**.
 
 Bootcamp QA Batch 69 - Sanbercode
 
-cypress/e2e/login.spec.js → test case
-cypress/fixtures/users.json → data user
-cypress/pages/loginPage.js → page object
-cypress/support/commands.js → custom command
-cypress.config.js → config baseUrl
-package.json → untuk dependensi Cypress
-  
 
 ## 📌 Deskripsi
 Project ini dibuat untuk memenuhi tugas Quiz 3 Bootcamp QA Automation.  
@@ -18,7 +11,9 @@ Semua test case ditulis dalam format `it block` pada Cypress.
 
 
 ## 📄 Struktur Folder
-orangehrm-cypress/
+<img width="212" height="339" alt="image" src="https://github.com/user-attachments/assets/7844e2b7-83d9-497d-ac31-5561c17b9bce" />
+
+quiz3-cypress/
 ├─ package.json
 ├─ cypress.config.js
 ├─ .gitignore
@@ -33,16 +28,13 @@ orangehrm-cypress/
 │  │  └─ e2e.js
 │  └─ pages/
 │     └─ loginPage.js
-└─ .github/
-   └─ workflows/
-      └─ cypress.yml
 
-cypress/e2e/login.spec.js → test case
-cypress/fixtures/users.json → data user
-cypress/pages/loginPage.js → page object
-cypress/support/commands.js → custom command
-cypress.config.js → config baseUrl
-package.json → untuk dependensi Cypress
+- cypress/e2e/login.spec.js → test case
+- cypress/fixtures/users.json → data user
+- cypress/pages/loginPage.js → page object
+- cypress/support/commands.js → custom command
+- cypress.config.js → config baseUrl
+- package.json → untuk dependensi Cypress
 
 
 ## 🧪 Test Cases
