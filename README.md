@@ -1,7 +1,7 @@
-# Quiz 3 - Cypress Automation Testing  
-Automation testing untuk fitur **Login OrangeHRM** menggunakan **Cypress**.
-
+# Quiz 3 - Cypress Automation Testing
 Bootcamp QA Batch 69 - Sanbercode
+
+## Automation testing untuk fitur **Login OrangeHRM** menggunakan **Cypress**.
 
 
 ## 📌 Deskripsi
@@ -22,17 +22,16 @@ Semua test case ditulis dalam format `it block` pada Cypress.
 
 
 ## 🧪 Test Cases
-1. **TC-01**: Login berhasil dengan username & password valid  
-2. **TC-02**: Login gagal dengan password salah  
-3. **TC-03**: Login gagal dengan username salah  
-4. **TC-04**: Login gagal jika username & password kosong  
-5. **TC-05**: Login gagal jika hanya username yang diisi  
-6. **TC-06**: Login gagal jika hanya password yang diisi  
-7. **TC-07**: Login gagal dengan input SQL Injection  
+1. **TC-01**: Login berhasil dengan username & password valid, berhasil masuk dashboard
+2. **TC-02**: Login gagal dengan password salah, muncul error message
+3. **TC-03**: Login gagal dengan username salah, muncul error message
+4. **TC-04**: Login gagal jika username & password kosong, muncul error message
+5. **TC-05**: Login gagal jika hanya username yang diisi, muncul validasi
+6. **TC-06**: Login gagal jika hanya password yang diisi, muncul validasi
+7. **TC-07**: Login gagal dengan input SQL Injection, muncul validasi
 
 Total test case: **7**  
 Semua test case **PASSED ✅**
-
 
 
 ## ⚙️ Setup & Install
@@ -41,13 +40,16 @@ Semua test case **PASSED ✅**
    git clone https://github.com/mariasefitha/quiz3-cypress.git
    cd quiz3-cypress
 2. Install dependencies:
+   ```bash
    npm install
-3. Jalankan Cypress (GUI):
+4. Jalankan Cypress (GUI):
+   ```arduino
    npx cypress open
-   --atau headless mode:
+atau headless mode:
+   ```bash
    npx cypress run
 
-
+```
 ## 👩‍💻 Tools
 1. Cypress v15+
 2. Node.js LTS
